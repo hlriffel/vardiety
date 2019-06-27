@@ -34,7 +34,8 @@ const AddButton = ({ onExecute }) => (
 );
 
 const EditButton = ({ onExecute }) => (
-    <CommandButton icon="pencil" hint="Editar" color="text-warning" onExecute={onExecute} />
+    //<CommandButton icon="pencil" hint="Editar" color="text-warning" onExecute={onExecute} />
+    null
 );
 
 const DeleteButton = ({ onExecute }) => (
@@ -232,7 +233,7 @@ export default class RegisterComponents extends React.PureComponent {
                 }}>
 
                 Editar
-            </Button>
+                </Button>
         </div>
     )
 

@@ -33,11 +33,6 @@ export default class Header extends Component {
                     <Nav.Link><font color="black">Componentes</font></Nav.Link>
                   </LinkContainer>
                 </NavDropdown.Item>
-                <NavDropdown.Item>
-                  <LinkContainer to="/main/register-nutrients">
-                    <Nav.Link><font color="black">Nutrientes X Componentes</font></Nav.Link>
-                  </LinkContainer>
-                </NavDropdown.Item>
               </NavDropdown>
               {
                 userService.userType === 'NUT' &&
